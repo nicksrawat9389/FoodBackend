@@ -5,6 +5,10 @@ VisualStudioVersion = 17.13.35913.81 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodDelivery.APIGateway", "FoodDelivery.APIGateway\FoodDelivery.APIGateway.csproj", "{9A791F24-87D6-4C11-87D9-5C6391216999}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resturant.WebApi", "Resturant.WebApi\Resturant.WebApi.csproj", "{FA05C17F-8F09-4B8A-9D40-760D0CEA9376}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{9A791F24-87D6-4C11-87D9-5C6391216999}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A791F24-87D6-4C11-87D9-5C6391216999}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A791F24-87D6-4C11-87D9-5C6391216999}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA05C17F-8F09-4B8A-9D40-760D0CEA9376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA05C17F-8F09-4B8A-9D40-760D0CEA9376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA05C17F-8F09-4B8A-9D40-760D0CEA9376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA05C17F-8F09-4B8A-9D40-760D0CEA9376}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FA05C17F-8F09-4B8A-9D40-760D0CEA9376} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0BD9F317-750D-4350-AB18-18AE9CCE7CBD}
